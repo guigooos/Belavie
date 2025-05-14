@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belavie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="menu-icon" id="menuIcon">☰</div>
+    <div class="logo"><img src="assets/Logo.png" alt="Minha Logo"></div>
+    <div class="search-bar">
+        <input type="text" placeholder="">
+        <button><img src="assets/search_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"></button>
+    </div>
+</header>
+
+<div class="side-menu" id="sideMenu">
+    <ul>
+        <li><a id="comeback" href="#"><img src="assets/reply_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="voltar">Voltar</a></li>
+        <li><a href="sing.html"><img src="assets/person_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="Login">Entrar</a></li>
+        <li><a href="car.html"><img src="assets/shopping_cart_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="Cart">Carrinho</a></li>
+        <li><a href="produtos.html"><img src="assets/shopping_bag_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="Produtos">Produtos</a></li>
+        <li><a href="index.html"><img src="assets/home_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="Inicio">Início</a></li>
+    </ul>
+</div>
+
+
+<p>
+    A  é uma marca de moda que nasceu com o propósito de celebrar a diversidade, a ancestralidade e a autenticidade através do vestir. Mais do que uma loja de roupas, é um espaço de expressão, representatividade e atitude, voltado para pessoas reais que buscam estilo com identidade. Com foco em moda e inclusiva, a Belavie desenvolve peças pensadas para , respeitando diferentes formas, tamanhos e modos de se expressar. Aqui, todos os corpos são bem-vindos — e cada um é celebrado em sua individualidade.
+<br>
+Inspirada na , a marca carrega em seu DNA a força das raízes africanas, refletida em suas estampas, tecidos, narrativas e estilo. A ancestralidade não é apenas uma referência estética, mas um pilar que sustenta o posicionamento da marca: vestir é um ato de resistência e valorização da identidade negra. Essa essência se mistura com uma forte , baseada nos estilos marcantes dos e dos primeiros anos 2000 (), trazendo de volta o brilho, o volume, os cortes ousados e a atitude irreverente dessas décadas. Elementos do , do e da moda urbana do marcam presença nas coleções, criando um visual autêntico e com alma de rua.
+<br>
+A Belavie se orgulha de ser uma marca , com produção local, que valoriza o talento brasileiro e investe na moda como forma de transformação social. Cada peça é pensada para refletir liberdade, pertencimento e poder pessoal. Além da linha adulta, a loja também oferece uma coleção de para crianças a partir de 5 anos, com o mesmo compromisso com estilo, conforto e representatividade. Desde cedo, acreditamos que toda criança deve se sentir vista e livre para ser quem é.
+<br>
+Na Belavie, vestir-se é mais do que uma escolha de estilo — é um gesto de afirmação. A moda é usada como linguagem, e cada peça conta uma história de identidade, cultura, orgulho e liberdade. É a união entre passado e presente, tradição e tendência, arte e atitude. A Belavie não segue padrões: ela cria caminhos próprios, com alma, força e verdade.
+</p>
+
+<footer>
+    <H1>BELAVIE</H1>
+    <main>
+       <div class="midia">
+        <ul>
+            <li><a href=""><img src="assets/instagram-logo-facebook-2-svgrepo-com.svg">@Belavie</a></li>
+            <li><a href=""><img src="assets/tiktok-svgrepo-com.svg">@Belavie</a></li>
+            <li><a href=""><img src="assets/X.svg">@Belavie</a></li>
+        </ul>
+    </div>
+    <div class="contact">
+        <ul>
+            <li><a href=""><img src="assets/email-svgrepo-com.svg">belaviecorpgenerations@hotmail.com</a></li>
+            <li><a href=""><img src="assets/whatsapp-fill-svgrepo-com.svg">(12) 34567-8910</a></li>
+        </ul>
+    </div> 
+    </main>
+    
+</footer>
+<style>
+    body{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+        
+    }
+    @media (max-width: 749px) {
+        header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 5px;
+    color: #C9A980;
+    width: 75%;
+
+}
+body{
+    overflow-x: hidden;
+}
+ p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+ }
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img{
+    width: 50px;
+}
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 3px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border: none;
+    background-color: #C9A980;
+}
+
+.search-bar button {
+    background-color: #C9A980;
+    border: none;
+    color: white;
+    padding: 3px 10px;
+    cursor: pointer;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.search-bar button img{
+    color: #ffffff;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #33472A;
+    padding-top: 20px;
+    transition: 0.3s;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    padding: 10px;
+}
+
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    gap: 8px;
+    justify-content: start;
+    margin-left: 16px;
+    align-items: center;
+}
+
+
+.side-menu.active {
+    left: 0;
+}
+.side-menu.inactive {
+    left: -300px;
+}       
+footer{
+    width: 100vw;
+    background: #33472A;
+}
+footer h1{
+    margin:0 0 0 4px;
+    padding: 4px;
+    font-family: 'syne';
+    color: #ffffff;
+}
+main{
+    display: flex;
+    gap: 1px;
+
+}
+footer main .midia ul li H1{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'syne';
+
+}
+footer main .midia img{
+    width: 24px;
+    height: 24px;
+}
+footer main .midia ul li{
+    list-style: none;
+}
+footer main .midia ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
+}
+footer h1{
+    font-size: 20px;
+}
+
+footer main .contact ul li H1{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'syne';
+
+}
+footer main .contact img{
+    width: 24px;
+}
+footer main .contact ul li{
+    list-style: none;
+}
+footer main .contact ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    padding: 0.1rem;
+    margin: 0;
+}
+}
+
+
+</style>
+<script src="script.js"></script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    display: flex;
+}
+.imagem img{
+    width: 40vw;
+    height: 100vh;
+    object-fit: cover;
+}
+main{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20vh;
+}
+main h1{
+    font-family: 'syne';
+    font-size: 5vw;
+    color:#33472A;
+}
+
+main .txtbox p{
+    font-family: 'inter';
+    margin-left: 10px;
+}
+main .txtbox input{
+    margin: 10px;
+    width: 24vw;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px rgba(40, 68, 39, 0.3);
+    outline: none;
+    padding: 0 20px;
+}
+.enter{
+    width: 24vw;
+    height: 24px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 12px;
+    margin: 12px;
+    font-family: 'poppins';
+    background-color: #33472A;
+    display: flex;
+    justify-content: center;
+}
+main .ntc{
+    font-family: 'inter';
+    text-decoration: none;
+    font-size: 12px;
+    color: #33472A;
+}
